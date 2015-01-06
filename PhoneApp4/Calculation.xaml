@@ -1,0 +1,80 @@
+﻿<phone:PhoneApplicationPage
+    x:Class="PhoneApp4.Calculation"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    SupportedOrientations="Portrait" Orientation="Portrait"
+    mc:Ignorable="d"
+    shell:SystemTray.IsVisible="True">
+
+    <!--LayoutRoot is the root grid where all page content is placed-->
+    <Grid x:Name="LayoutRoot" Background="Transparent">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <!--TitlePanel contains the name of the application and page title-->
+        <StackPanel Grid.Row="0" Margin="12,17,0,28">
+        </StackPanel>
+
+        <!--ContentPanel - place additional content here-->
+        <Grid x:Name="ContentPanel" Grid.Row="1" Margin="10,0,14,0" Background="Black">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="83*"/>
+                <ColumnDefinition Width="48*"/>
+                <ColumnDefinition Width="21*"/>
+            </Grid.ColumnDefinitions>
+            <TextBlock Text="Your Answer Heard" Style="{StaticResource PhoneTextNormalStyle}" Margin="77,0,0,696" Foreground="#FF06F5E0" Height="27" VerticalAlignment="Bottom"/>
+            <TextBlock Text="Correct Answer" Style="{StaticResource PhoneTextNormalStyle}" Margin="7,0,54,696" Foreground="#FF06F5E0" Grid.Column="1" Grid.ColumnSpan="2"/>
+            <TextBlock Text="Score" Style="{StaticResource PhoneTextNormalStyle}" Margin="6.015,0,-21,696" Foreground="#FF06F5E0" Grid.Column="2"/>
+            <TextBlock Text="Q No." Style="{StaticResource PhoneTextNormalStyle}" Margin="0,0,175,696" Foreground="#FF06F5E0" HorizontalAlignment="Right" Width="63"/>
+            <TextBlock Text="1." Style="{StaticResource PhoneTextNormalStyle}" Margin="0,38,209,658" Foreground="#FF06F5E0" HorizontalAlignment="Right" Width="29" RenderTransformOrigin="0.259,-0.375"/>
+            <TextBlock Text="3." Style="{StaticResource PhoneTextNormalStyle}" Margin="0,88,209,608" Foreground="#FF06F5E0" HorizontalAlignment="Right" Width="29" RenderTransformOrigin="0.259,-0.375"/>
+            <TextBlock Text="5." Style="{StaticResource PhoneTextNormalStyle}" Margin="0,130,209,566" Foreground="#FF06F5E0" HorizontalAlignment="Right" Width="29" RenderTransformOrigin="0.259,-0.375"/>
+            <TextBlock Text="7." Style="{StaticResource PhoneTextNormalStyle}" Margin="0,172,209,524" Foreground="#FF06F5E0" HorizontalAlignment="Right" Width="29" RenderTransformOrigin="0.259,-0.375"/>
+            <TextBlock Text="8." Style="{StaticResource PhoneTextNormalStyle}" Margin="0,195,209,501" Foreground="#FF06F5E0" HorizontalAlignment="Right" Width="29" RenderTransformOrigin="0.259,-0.375"/>
+            <TextBlock Text="9." Style="{StaticResource PhoneTextNormalStyle}" Margin="0,220,209,476" Foreground="#FF06F5E0" HorizontalAlignment="Right" Width="29" RenderTransformOrigin="0.259,-0.375"/>
+            <TextBlock Text="4." Style="{StaticResource PhoneTextNormalStyle}" Margin="0,107,209,589" Foreground="#FF06F5E0" HorizontalAlignment="Right" Width="29" RenderTransformOrigin="0.259,-0.375"/>
+            <TextBlock Text="10." Style="{StaticResource PhoneTextNormalStyle}" Margin="0,243,209,453" Foreground="#FF06F5E0" HorizontalAlignment="Right" Width="29" RenderTransformOrigin="0.259,-0.375"/>
+            <TextBlock Text="2." Style="{StaticResource PhoneTextNormalStyle}" Margin="0,63,209,633" Foreground="#FF06F5E0" HorizontalAlignment="Right" Width="29" RenderTransformOrigin="0.259,-0.375"/>
+            <TextBlock Text="6." Style="{StaticResource PhoneTextNormalStyle}" Margin="0,150,209,546" Foreground="#FF06F5E0" HorizontalAlignment="Right" Width="29" RenderTransformOrigin="0.259,-0.375"/>
+            <TextBlock Text="1." Style="{StaticResource PhoneTextNormalStyle}" Margin="0,262,209,434" Foreground="#FF06F5E0" HorizontalAlignment="Right" Width="29" RenderTransformOrigin="0.259,-0.375"/>
+            <TextBlock Text="1." Style="{StaticResource PhoneTextNormalStyle}" Margin="0,285,209,411" Foreground="#FF06F5E0" HorizontalAlignment="Right" Width="29" RenderTransformOrigin="0.259,-0.375"/>
+            <TextBlock Text="1." Style="{StaticResource PhoneTextNormalStyle}" Margin="0,307,209,389" Foreground="#FF06F5E0" HorizontalAlignment="Right" Width="29" RenderTransformOrigin="0.259,-0.375"/>
+            <TextBlock Text="1." Style="{StaticResource PhoneTextNormalStyle}" Margin="0,330,209,366" Foreground="#FF06F5E0" HorizontalAlignment="Right" Width="29" RenderTransformOrigin="0.259,-0.375"/>
+            <TextBlock Text="1." Style="{StaticResource PhoneTextNormalStyle}" Margin="0,348,209,348" Foreground="#FF06F5E0" HorizontalAlignment="Right" Width="29" RenderTransformOrigin="0.259,-0.375"/>
+            <TextBlock Text="1." Style="{StaticResource PhoneTextNormalStyle}" Margin="0,369,209,327" Foreground="#FF06F5E0" HorizontalAlignment="Right" Width="29" RenderTransformOrigin="0.259,-0.375"/>
+            <TextBlock Text="1." Style="{StaticResource PhoneTextNormalStyle}" Margin="0,390,209,306" Foreground="#FF06F5E0" HorizontalAlignment="Right" Width="29" RenderTransformOrigin="0.259,-0.375"/>
+            <TextBlock Text="1." Style="{StaticResource PhoneTextNormalStyle}" Margin="0,412,209,284" Foreground="#FF06F5E0" HorizontalAlignment="Right" Width="29" RenderTransformOrigin="0.259,-0.375"/>
+            <TextBlock Text="1." Style="{StaticResource PhoneTextNormalStyle}" Margin="0,433,209,263" Foreground="#FF06F5E0" HorizontalAlignment="Right" Width="29" RenderTransformOrigin="0.259,-0.375"/>
+            <TextBlock Text="1." Style="{StaticResource PhoneTextNormalStyle}" Margin="0,450,209,246" Foreground="#FF06F5E0" HorizontalAlignment="Right" Width="29" RenderTransformOrigin="0.259,-0.375"/>
+            <TextBlock Text="1." Style="{StaticResource PhoneTextNormalStyle}" Margin="0,472,209,224" Foreground="#FF06F5E0" HorizontalAlignment="Right" Width="29" RenderTransformOrigin="0.259,-0.375"/>
+            <TextBlock Text="1." Style="{StaticResource PhoneTextNormalStyle}" Margin="0,489,209,207" Foreground="#FF06F5E0" HorizontalAlignment="Right" Width="29" RenderTransformOrigin="0.259,-0.375"/>
+            <TextBlock Text="1." Style="{StaticResource PhoneTextNormalStyle}" Margin="0,507,209,189" Foreground="#FF06F5E0" HorizontalAlignment="Right" Width="29" RenderTransformOrigin="0.259,-0.375"/>
+            <TextBlock Text="1." Style="{StaticResource PhoneTextNormalStyle}" Margin="0,531,209,165" Foreground="#FF06F5E0" HorizontalAlignment="Right" Width="29" RenderTransformOrigin="0.259,-0.375"/>
+            <TextBlock Text="1." Style="{StaticResource PhoneTextNormalStyle}" Margin="0,550,209,146" Foreground="#FF06F5E0" HorizontalAlignment="Right" Width="29" RenderTransformOrigin="0.259,-0.375"/>
+            <TextBlock Text="1." Style="{StaticResource PhoneTextNormalStyle}" Margin="0,571,209,125" Foreground="#FF06F5E0" HorizontalAlignment="Right" Width="29" RenderTransformOrigin="0.259,-0.375"/>
+            <TextBlock Text="1." Style="{StaticResource PhoneTextNormalStyle}" Margin="0,593,209,103" Foreground="#FF06F5E0" HorizontalAlignment="Right" Width="29" RenderTransformOrigin="0.259,-0.375"/>
+            <TextBlock Text="1." Style="{StaticResource PhoneTextNormalStyle}" Margin="0,615,209,81" Foreground="#FF06F5E0" HorizontalAlignment="Right" Width="29" RenderTransformOrigin="0.259,-0.375"/>
+            <TextBlock Text="1." Style="{StaticResource PhoneTextNormalStyle}" Margin="0,632,209,64" Foreground="#FF06F5E0" HorizontalAlignment="Right" Width="29" RenderTransformOrigin="0.259,-0.375"/>
+            <TextBlock Text="1." Style="{StaticResource PhoneTextNormalStyle}" Margin="0,660,209,36" Foreground="#FF06F5E0" HorizontalAlignment="Right" Width="29" RenderTransformOrigin="0.259,-0.375"/>
+
+        </Grid>
+        <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="718" VerticalAlignment="Top" Width="0" Margin="81,5,0,0" Grid.Row="1"/>
+        <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="718" VerticalAlignment="Top" Width="0" Margin="79,5,0,0" Grid.Row="1"/>
+        <Border BorderBrush="#FF06D6F7" BorderThickness="1" HorizontalAlignment="Left" Height="30" VerticalAlignment="Top" Width="470" Margin="0,43,0,0" Grid.RowSpan="2"/>
+        <Border BorderBrush="#FF06D6F7" BorderThickness="1" HorizontalAlignment="Left" Height="678" VerticalAlignment="Bottom" Width="74" Margin="74,0,0,45" Grid.Row="1"/>
+        <Border BorderBrush="#FF06D6F7" BorderThickness="1" HorizontalAlignment="Left" Height="713" VerticalAlignment="Top" Width="187" Grid.Row="1" Margin="74,0,0,0"/>
+        <Border BorderBrush="#FF06D6F7" BorderThickness="1" HorizontalAlignment="Left" Height="713" VerticalAlignment="Top" Width="144" Grid.Row="1" Margin="261,0,0,0"/>
+        <Border BorderBrush="#FF06D6F7" BorderThickness="1" HorizontalAlignment="Left" Height="713" VerticalAlignment="Top" Width="64" Grid.Row="1" Margin="405,0,0,0"/>
+        <TextBox HorizontalAlignment="Left" Height="59" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="101" Margin="138,22,0,0" Grid.Row="1" BorderBrush="White" Foreground="#FF02C0F7" Background="{StaticResource TransparentBrush}" FontSize="20"/>
+    </Grid>
+
+</phone:PhoneApplicationPage>
